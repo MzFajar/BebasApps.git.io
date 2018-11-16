@@ -1,0 +1,23 @@
+sudo: required
+dist: trusty
+language: php
+
+# Versi PHP
+php:
+  - 7.1
+
+  
+# Brach yg digunakan
+branches:
+  only:
+  - master
+  - develop
+  
+# Install Environment di os
+before_install:
+
+# Precompile
+before_script:
+
+# Main Executing (Build)
+script:
